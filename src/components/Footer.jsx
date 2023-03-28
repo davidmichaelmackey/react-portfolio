@@ -1,4 +1,5 @@
 import React from 'react';
+import vite from '../assets/images/vite.svg';
 
 const Footer = () => {
   return (
@@ -6,10 +7,7 @@ const Footer = () => {
       <a href='https://vitejs.dev/' target='_blank'>
         <p className='float-left text-xl mr-2 font-medium text-gray-400 hover:line-through hover:decoration-amber-300'>
           Built with <span className='text-amber-300'>Vite</span>
-          <img
-            src='../assets/images/vite.svg'
-            className='float-right max-h-7 ml-1'
-          ></img>
+          <img src={vite} className='float-right max-h-7 ml-1'></img>
         </p>
       </a>
     </div>
