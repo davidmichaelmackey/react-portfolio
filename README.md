@@ -69,6 +69,7 @@ This is a portfolio page using React. This project uses React which sets it apar
     <img src="https://img.shields.io/badge/-React_DOM-grey?style=for-the-badge"  alt="React DOM" />
     <img src="https://img.shields.io/badge/-React_Router_DOM-grey?style=for-the-badge"  alt="React Router DOM" />
     <img src="https://img.shields.io/badge/-React_Icons-grey?style=for-the-badge"  alt="React Icons" />
+    <img src="https://img.shields.io/badge/-React_Type_Animation-grey?style=for-the-badge"  alt="React Type Animation" />
       
 </p>
 
