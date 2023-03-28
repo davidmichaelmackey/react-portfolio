@@ -7,7 +7,7 @@ const Footer = () => {
         <p className='float-left text-xl mr-2 font-medium text-gray-400 hover:line-through hover:decoration-amber-300'>
           Built with <span className='text-amber-300'>Vite</span>
           <img
-            src='../../public/vite.svg'
+            src='../assets/images/vite.svg'
             className='float-right max-h-7 ml-1'
           ></img>
         </p>
