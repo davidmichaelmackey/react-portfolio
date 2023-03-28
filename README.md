@@ -6,7 +6,7 @@
 <p align="center">
 <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/react-portfolio?color=FF9AA2&style=for-the-badge" alt="Languages" />
 <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/react-portfolio?color=FFB7B2&style=for-the-badge" alt="Top Language" />
-<img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/react-portfolio?color=FFDAC1&style=for-the-badge" alt="Code Size" />
+<img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/react-portfolio?color=FFDAC1&style=for-the-badge" alt="Code Size" /><br>
 <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/react-portfolio?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
 <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/react-portfolio?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
 <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
