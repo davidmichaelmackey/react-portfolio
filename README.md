@@ -63,12 +63,12 @@ This is a portfolio page using React. This project uses React which sets it apar
     <img src="https://img.shields.io/badge/-HTML-grey?style=for-the-badge"  alt="HTML" />
     <img src="https://img.shields.io/badge/-CSS-grey?style=for-the-badge"  alt="CSS" />
     <img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
-    <img src="https://img.shields.io/badge/-Tailwind-CSS-grey?style=for-the-badge"  alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS_grey?style=for-the-badge"  alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/-Vite-grey?style=for-the-badge"  alt="Vite" />
     <img src="https://img.shields.io/badge/-React-grey?style=for-the-badge"  alt="React" />
-    <img src="https://img.shields.io/badge/-React-DOM-grey?style=for-the-badge"  alt="React DOM" />
-    <img src="https://img.shields.io/badge/-React-Router-DOM-grey?style=for-the-badge"  alt="React Router DOM" />
-    <img src="https://img.shields.io/badge/-React-Icons-grey?style=for-the-badge"  alt="React Icons" />
+    <img src="https://img.shields.io/badge/-React_DOM-grey?style=for-the-badge"  alt="React DOM" />
+    <img src="https://img.shields.io/badge/-React_Router_DOM-grey?style=for-the-badge"  alt="React Router DOM" />
+    <img src="https://img.shields.io/badge/-React_Icons-grey?style=for-the-badge"  alt="React Icons" />
       
 </p>
 
