@@ -64,15 +64,16 @@ This is a portfolio page using React. This project uses React which sets it apar
 
 ## Toolset
 
-<p align="center"><img src="https://img.shields.io/badge/-HTML-grey?style=for-the-badge"  alt="HTML" />
-      <img src="https://img.shields.io/badge/-CSS-grey?style=for-the-badge"  alt="CSS" />
-      <img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
-      <img src="https://img.shields.io/badge/-Tailwind CSS-grey?style=for-the-badge"  alt="Tailwind CSS" />
-      <img src="https://img.shields.io/badge/-Vite-grey?style=for-the-badge"  alt="Vite" />
-      <img src="https://img.shields.io/badge/-React-grey?style=for-the-badge"  alt="React" />
-      <img src="https://img.shields.io/badge/-React DOM-grey?style=for-the-badge"  alt="React DOM" />
-      <img src="https://img.shields.io/badge/-React Router DOM-grey?style=for-the-badge"  alt="React Router DOM" />
-      <img src="https://img.shields.io/badge/-React Icons-grey?style=for-the-badge"  alt="React Icons" />
+<p align="center">
+    <img src="https://img.shields.io/badge/-HTML-grey?style=for-the-badge"  alt="HTML" /><br>
+    <img src="https://img.shields.io/badge/-CSS-grey?style=for-the-badge"  alt="CSS" /><br>
+    <img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" /><br>
+    <img src="https://img.shields.io/badge/-Tailwind CSS-grey?style=for-the-badge"  alt="Tailwind CSS" /><br>
+    <img src="https://img.shields.io/badge/-Vite-grey?style=for-the-badge"  alt="Vite" /><br>
+    <img src="https://img.shields.io/badge/-React-grey?style=for-the-badge"  alt="React" /><br>
+    <img src="https://img.shields.io/badge/-React DOM-grey?style=for-the-badge"  alt="React DOM" /><br>
+    <img src="https://img.shields.io/badge/-React Router DOM-grey?style=for-the-badge"  alt="React Router DOM" /><br>
+    <img src="https://img.shields.io/badge/-React Icons-grey?style=for-the-badge"  alt="React Icons" /><br>
       
 </p>
 
@@ -85,13 +86,7 @@ This is a portfolio page using React. This project uses React which sets it apar
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
-## Tests
-
-n/a
-
 ## Questions
 
-Have Questions?
-<br>
-Feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
+Have Questions? Feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
 
