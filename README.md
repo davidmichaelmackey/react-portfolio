@@ -63,11 +63,11 @@ This is a portfolio page using React. This project uses React which sets it apar
     <img src="https://img.shields.io/badge/-HTML-EB6337?style=for-the-badge"  alt="HTML" />
     <img src="https://img.shields.io/badge/-CSS-2A56F5?style=for-the-badge"  alt="CSS" />
     <img src="https://img.shields.io/badge/-JS-F6DD4A?style=for-the-badge"  alt="JS" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-52B4D2?style=for-the-badge"  alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/-Vite-3CBDFF?style=for-the-badge"  alt="Vite" /><br>
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-52B4D2?style=for-the-badge"  alt="Tailwind CSS" /><br>
+    <img src="https://img.shields.io/badge/-Vite-3CBDFF?style=for-the-badge"  alt="Vite" />
     <img src="https://img.shields.io/badge/-React-82D7F7?style=for-the-badge"  alt="React" />
     <img src="https://img.shields.io/badge/-React_DOM-33363D?style=for-the-badge"  alt="React DOM" />
-    <img src="https://img.shields.io/badge/-React_Router_DOM-212329?style=for-the-badge"  alt="React Router DOM" />
+    <img src="https://img.shields.io/badge/-React_Router_DOM-212329?style=for-the-badge"  alt="React Router DOM" /><br>
     <img src="https://img.shields.io/badge/-React_Icons-1C3354?style=for-the-badge"  alt="React Icons" />
     <img src="https://img.shields.io/badge/-React_Type_Animation-D32D26?style=for-the-badge"  alt="React Type Animation" />
       
