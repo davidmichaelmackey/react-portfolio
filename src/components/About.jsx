@@ -1,12 +1,12 @@
 import React from 'react';
-import hero from '../assets/images/hero1.jpeg';
+import gradient4 from '../assets/images/gradient4.jpg';
 
 const About = () => {
   return (
     <div id='about'>
       <img
         className='w-full h-screen object-cover object-center'
-        src={hero} //!!!
+        src={gradient4} //!!!
         alt='A mirror photo of David Michael Mackey taken in Los Angeles, CA, back in 2019.'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
