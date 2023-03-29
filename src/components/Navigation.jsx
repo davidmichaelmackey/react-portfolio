@@ -25,32 +25,32 @@ const Navigation = () => {
       {nav ? (
         <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
           <Link
+            to='/react-portfolio'
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
-            to='/'
             onClick={handleNav}
           >
             <AiOutlineHome size={20} />
             <span className='pl-4'>Home</span>
           </Link>
           <Link
-            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             to='/about'
+            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             onClick={handleNav}
           >
             <BsPerson size={20} />
             <span className='pl-4'>About</span>
           </Link>
           <Link
-            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             to='/portfolio'
+            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             onClick={handleNav}
           >
             {' '}
             <GrProjects size={20} /> <span className='pl-4'>Portfolio</span>
           </Link>
           <Link
-            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             to='/contact'
+            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             onClick={handleNav}
           >
             <AiOutlineMail size={20} />
@@ -63,8 +63,8 @@ const Navigation = () => {
       <div className='md:block hidden fixed top-[40%] z-10'>
         <div className='flex flex-col'>
           <Link
-            className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
             to='/'
+            className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
             <AiOutlineHome size={20} />
           </Link>
@@ -75,14 +75,14 @@ const Navigation = () => {
             <BsPerson size={20} />
           </Link>
           <Link
-            className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
             to='/portfolio'
+            className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
             <AiOutlineProject size={20} />
           </Link>
           <Link
-            className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
             to='/contact'
+            className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
             <AiOutlineMail size={20} />
           </Link>
