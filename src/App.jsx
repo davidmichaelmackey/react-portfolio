@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route path='/react-portfolio/' element={<Home />} />
+        <Route path='/' element={<Home />} />
       </Routes>
       <Routes>
         <Route path='/about' element={<About />} />
