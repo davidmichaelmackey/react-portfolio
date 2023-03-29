@@ -63,7 +63,7 @@ const Navigation = () => {
       <div className='md:block hidden fixed top-[40%] z-10'>
         <div className='flex flex-col'>
           <Link
-            to='/'
+            to='/react-portfolio'
             className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
             <AiOutlineHome size={20} />
