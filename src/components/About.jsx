@@ -1,5 +1,6 @@
 import React from 'react';
 import gradient4 from '../assets/images/gradient4.jpg';
+import Resume from './Resume';
 
 const About = () => {
   return (
@@ -34,6 +35,7 @@ const About = () => {
               aesthetically pleasing.
             </p>
           </div>
+          <Resume />
         </div>
       </div>
     </div>
