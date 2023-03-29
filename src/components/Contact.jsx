@@ -5,13 +5,13 @@ const Contact = () => {
   return (
     <div>
       <img
-        className='w-full h-screen object-cover object-center'
+        className='sm:w-full sm:h-screen sm:object-cover sm:object-center sm:visible invisible'
         src={gradient2} //!!!
         alt='A colorful gradient background photo.'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-          <h1 className='mb-48 py-4 text-6xl font-bold text-center text-[#001B5E]'>
+          <h1 className=' sm:mb-48 py-4 text-4xl sm:text-6xl font-bold text-center text-[#001B5E]'>
             Contact
           </h1>
           <form
@@ -19,7 +19,7 @@ const Contact = () => {
             method='POST'
             encType='multipart/form-data'
           >
-            <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+            <div className='grid md:grid-cols-2 sm:gap-4 w-full py-2'>
               <div className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2 text-grey-800'>
                   Name
@@ -70,8 +70,13 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    className='bg-transparent border-2 rounded-lg p-3 border-[#001B5E] focus:outline-none'
+                    className='bg-transparent border-2 rounded-lg p-3 border-[#001B5E] focus:outline-none sm:block hidden sm:visible invisible'
                     rows='10'
+                    name='message'
+                  ></textarea>
+                  <textarea
+                    className='bg-transparent border-2 rounded-lg p-3 border-[#001B5E] focus:outline-none sm:hidden block sm:invisible visible'
+                    rows='2'
                     name='message'
                   ></textarea>
                 </div>

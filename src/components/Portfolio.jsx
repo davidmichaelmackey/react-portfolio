@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <div id='about' className=''>
       <img
-        className='w-full h-screen object-cover object-center'
+        className='sm:w-full sm:h-screen sm:object-cover sm:object-center sm:visible invisible'
         src={gradient3} //!!!
         alt='A colorful gradient background photo.'
       />
@@ -24,7 +24,7 @@ const Portfolio = () => {
           id='portfolio'
           className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'
         >
-          <h1 className='py-4 text-6xl mb-6 font-bold text-center text-[#001B5E]'>
+          <h1 className='py-4 text-4xl sm:text-6xl mb-6 font-bold text-center text-[#001B5E]'>
             Portfolio
           </h1>
           <div className='grid sm:grid-cols-3 gap-12'>
