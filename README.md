@@ -24,7 +24,7 @@
 
 ## Description
 
-This is a portfolio page using React. This project uses React which sets it apart from basic, less cutting-edge technologies like HTML and Vanilla CSS, and JS.
+Hiya! I'm David and this is my Professional Portfolio. This project distinguishes itself by utilizing Vite for creating the React application and Tailwind CSS for imposing all of the styling. These are more advanced and cutting-edge technologies rather than the more basic counterparts - HTML, Vanilla CSS, and Vanilla JS.
 
 ## Usage
 
