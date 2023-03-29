@@ -28,10 +28,10 @@ This is a portfolio page using React. This project uses React which sets it apar
 
 ## Usage
 
-![Usage-Home](public/homepage.png)
-![Usage-About](public/aboutpage.png)
-![Usage-Portfolio](public/portfoliopage.png)
-![Usage-Contact](public/contactpage.png)
+![Usage-Home](assets/images/homepage.png)
+![Usage-About](assets/images/aboutpage.png)
+![Usage-Portfolio](assets/images/portfoliopage.png)
+![Usage-Contact](assets/images/contactpage.png)
 
 ## Credits
 
