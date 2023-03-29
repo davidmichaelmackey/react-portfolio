@@ -69,8 +69,8 @@ const Navigation = () => {
             <AiOutlineHome size={20} />
           </Link>
           <Link
-            className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
             to='/about'
+            className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
             <BsPerson size={20} />
           </Link>
