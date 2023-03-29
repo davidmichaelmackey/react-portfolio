@@ -1,5 +1,6 @@
 import React from 'react';
-import gradient4 from '../assets/images/gradient4.jpg';
+import hero from '../assets/images/hero1.jpeg';
+import gradientImg from '../assets/images/gradient4.jpg';
 import Resume from './Resume';
 
 const About = () => {
@@ -7,7 +8,7 @@ const About = () => {
     <div id='about'>
       <img
         className='w-full h-screen object-cover object-center'
-        src={gradient4} //!!!
+        src={gradientImg} //!!!
         alt='A mirror photo of David Michael Mackey taken in Los Angeles, CA, back in 2019.'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
@@ -22,7 +23,7 @@ const About = () => {
           />
 
           <div className='flex flex-row justify-center items-center'>
-            <p className='font-medium text-center text-2xl max-w-5xl mt-12'>
+            <p className='font-medium text-center text-2xl max-w-5xl mt-12 text-gray-800'>
               As a web developer, who specializes in front-end & back-end, I
               believe in designing a cleaner, more accessible world, where
               user-interfaces are mediums between human & machine that foster
@@ -35,8 +36,8 @@ const About = () => {
               aesthetically pleasing.
             </p>
           </div>
-          <Resume />
         </div>
+        <Resume className='object-center' />
       </div>
     </div>
   );
