@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <img
-        className='sm:w-full sm:h-screen sm:object-cover sm:object-center sm:visible invisible'
+        className='w-full h-screen object-cover object-center'
         src={gradient2} //!!!
         alt='A colorful gradient background photo.'
       />
@@ -19,9 +19,9 @@ const Contact = () => {
             method='POST'
             encType='multipart/form-data'
           >
-            <div className='grid md:grid-cols-2 sm:gap-4 w-full py-2'>
+            <div className='grid md:grid-cols-2 sm:gap-4 gap-0 w-full py-2'>
               <div className='flex flex-col py-2'>
-                <label className='uppercase text-sm py-2 text-grey-800'>
+                <label className='uppercase text-sm sm:py-2 text-grey-800'>
                   Name
                 </label>
                 <input
@@ -31,7 +31,7 @@ const Contact = () => {
                 />
               </div>
               <div className='flex flex-col py-2'>
-                <label className='uppercase text-sm py-2 text-grey-800'>
+                <label className='uppercase text-sm sm:py-2 text-grey-800'>
                   Phone
                 </label>
                 <input
@@ -41,10 +41,10 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className='grid gap-4 w-full py-2'>
+            <div className='grid sm:gap-4 gap-0 w-full sm:py-2'>
               <div className='flex flex-col'>
-                <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2 text-grey-800'>
+                <div className='flex flex-col sm:py-2'>
+                  <label className='uppercase text-sm sm:py-2 text-grey-800'>
                     Email
                   </label>
                   <input
@@ -54,8 +54,8 @@ const Contact = () => {
                   />
                 </div>
                 <br></br>
-                <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2 text-grey-800'>
+                <div className='flex flex-col sm:py-2'>
+                  <label className='uppercase text-sm sm:py-2 text-grey-800'>
                     Subject
                   </label>
                   <input
@@ -65,8 +65,8 @@ const Contact = () => {
                   />
                 </div>
                 <br></br>
-                <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2 text-grey-800'>
+                <div className='flex flex-col sm:py-2'>
+                  <label className='uppercase text-sm sm:py-2 text-grey-800'>
                     Message
                   </label>
                   <textarea
@@ -76,7 +76,7 @@ const Contact = () => {
                   ></textarea>
                   <textarea
                     className='bg-transparent border-2 rounded-lg p-3 border-[#001B5E] focus:outline-none sm:hidden block sm:invisible visible'
-                    rows='2'
+                    rows='5'
                     name='message'
                   ></textarea>
                 </div>

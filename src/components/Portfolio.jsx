@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <div id='about' className=''>
       <img
-        className='sm:w-full sm:h-screen sm:object-cover sm:object-center sm:visible invisible'
+        className='md:w-full md:h-screen md:object-cover md:object-center md:visible invisible'
         src={gradient3} //!!!
         alt='A colorful gradient background photo.'
       />
