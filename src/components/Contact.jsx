@@ -11,7 +11,7 @@ const Contact = () => {
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-          <h1 className=' sm:mb-12 text-4xl sm:text-6xl font-bold text-center text-[#001B5E]'>
+          <h1 className=' sm:mb-12 text-4xl sm:text-6xl font-bold text-center text-gray-800'>
             Contact
           </h1>
           <form
@@ -25,7 +25,7 @@ const Contact = () => {
                   Name
                 </label>
                 <input
-                  className='bg-transparent border-2 rounded-lg p-3 flex border-[#001B5E] focus:outline-none'
+                  className='bg-transparent border-2 rounded-lg p-3 flex border-gray-800 focus:outline-none'
                   type='text'
                   name='name'
                 />
@@ -35,7 +35,7 @@ const Contact = () => {
                   Phone
                 </label>
                 <input
-                  className='bg-transparent border-2 rounded-lg p-3 flex border-[#001B5E] focus:outline-none'
+                  className='bg-transparent border-2 rounded-lg p-3 flex border-gray-800 focus:outline-none'
                   type='text'
                   name='phone'
                 />
@@ -48,7 +48,7 @@ const Contact = () => {
                     Email
                   </label>
                   <input
-                    className='bg-transparent border-2 rounded-lg p-3 flex border-[#001B5E] focus:outline-none'
+                    className='bg-transparent border-2 rounded-lg p-3 flex border-gray-800 focus:outline-none'
                     type='email'
                     name='email'
                   />
@@ -59,7 +59,7 @@ const Contact = () => {
                     Subject
                   </label>
                   <input
-                    className='bg-transparent border-2 rounded-lg p-3 flex border-[#001B5E] focus:outline-none'
+                    className='bg-transparent border-2 rounded-lg p-3 flex border-gray-800 focus:outline-none'
                     type='text'
                     name='subject'
                   />
@@ -70,19 +70,19 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    className='bg-transparent border-2 rounded-lg p-3 border-[#001B5E] focus:outline-none sm:block hidden sm:visible invisible'
+                    className='bg-transparent border-2 rounded-lg p-3 border-gray-800 focus:outline-none sm:block hidden sm:visible invisible'
                     rows='10'
                     name='message'
                   ></textarea>
                   <textarea
-                    className='bg-transparent border-2 rounded-lg p-3 border-[#001B5E] focus:outline-none sm:hidden block sm:invisible visible'
+                    className='bg-transparent border-2 rounded-lg p-3 border-gray-800 focus:outline-none sm:hidden block sm:invisible visible'
                     rows='5'
                     name='message'
                   ></textarea>
                 </div>
                 <br></br>
                 <div className='flex flex-col'>
-                  <button className='bg-[#001B5E] text-gray-100 mt-4 w-full p-4 rounded-lg'>
+                  <button className='bg-blue-700 text-gray-100 mt-4 w-full p-4 rounded-lg'>
                     Send Message
                   </button>
                 </div>

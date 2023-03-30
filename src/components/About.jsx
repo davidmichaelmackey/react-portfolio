@@ -17,22 +17,25 @@ const About = () => {
             About
           </h1>
           <img
-            className='object-center sm:mt-10 mt-4 rounded-2xl'
+            className='object-center sm:mt-10 mt-4 rounded-md shadow-xl shadow-gray-900'
             src={hero}
             alt='A mirror photo of David Michael Mackey taken in Los Angeles, CA, back in 2019.'
           />
 
-          <div className='flex flex-row justify-center items-center'>
+          <div className='justify-center items-center'>
             <p className='font-medium text-center sm:text-2xl text-lg max-w-5xl sm:mt-10 mt-6 text-gray-800'>
               As a web developer, who specializes in front-end & back-end, I
               believe in designing a cleaner, more accessible world, where
               user-interfaces are mediums between human & machine that foster
-              intelligent, intuitive, and delightful interactions. <br></br>
-              <br></br>
+              intelligent, intuitive, and delightful interactions.
+            </p>
+            <p className='font-medium text-center sm:text-2xl text-lg max-w-5xl sm:mt-4 mt-6 text-gray-800'>
               Together, through a collective effort, we can bridge the
               intersection of simplicity & function to craft an inspiring,
-              compelling, and authentic brand narrative. <br></br>
-              <br></br>Let's design a world that's thoughtful, considered, and
+              compelling, and authentic brand narrative.
+            </p>
+            <p className='font-medium text-center sm:text-2xl text-lg max-w-5xl sm:mt-4 mt-6 text-gray-800'>
+              Let's design a world that's thoughtful, considered, and
               aesthetically pleasing.
             </p>
           </div>
