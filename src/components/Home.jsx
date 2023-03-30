@@ -14,10 +14,10 @@ const Home = () => {
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center'>
-          <h1 className='text-4xl sm:text-6xl font-bold text-gray-800'>
+          <h1 className='text-3xl sm:text-6xl font-bold text-gray-800'>
             David Michael Mackey
           </h1>
-          <h2 className='flex sm:text-3xl text-xl font-semibold pt-4 text-grey-800'>
+          <h2 className='flex sm:text-3xl text-lg font-semibold pt-4 text-grey-800'>
             <span className='text-gray-800'>MERN Stack Developer</span>
             <span className='text-gray-200'>&nbsp; &#123;</span>
             <div className='text-green-200'>

@@ -20,7 +20,7 @@ const Navigation = () => {
       <AiOutlineMenu
         size={28}
         onClick={handleNav}
-        className='absolute top-6 right-6 z-[99] md:hidden cursor-pointer'
+        className='absolute top-4 right-4 z-[99] md:hidden cursor-pointer'
       />
       {nav ? (
         <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>

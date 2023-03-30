@@ -10,8 +10,11 @@ const Contact = () => {
         alt='A colorful gradient background photo.'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
-        <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-          <h1 className=' sm:mb-12 text-4xl sm:text-6xl font-bold text-center text-gray-800'>
+        <div
+          id='contact'
+          className='max-w-[1040px] m-auto md:pl-20 sm:p-4 p-6 py-5 sm:py-16'
+        >
+          <h1 className=' sm:mb-12 mb-6 text-2xl sm:text-6xl font-bold text-center text-gray-800'>
             Contact
           </h1>
           <form
@@ -19,54 +22,54 @@ const Contact = () => {
             method='POST'
             encType='multipart/form-data'
           >
-            <div className='grid md:grid-cols-2 sm:gap-4 gap-0 w-full py-2'>
+            <div className='grid md:grid-cols-2 sm:gap-4 w-full sm:py-2'>
               <div className='flex flex-col'>
-                <label className='uppercase text-sm sm:py-2 text-grey-800'>
+                <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
                   Name
                 </label>
                 <input
-                  className='bg-transparent border-2 rounded-lg p-3 flex border-gray-800 focus:outline-none'
+                  className='bg-transparent border-2 rounded-lg p-2 sm:p-3 flex border-gray-800 focus:outline-none'
                   type='text'
                   name='name'
                 />
               </div>
               <div className='flex flex-col'>
-                <label className='uppercase text-sm sm:py-2 text-grey-800'>
+                <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
                   Phone
                 </label>
                 <input
-                  className='bg-transparent border-2 rounded-lg p-3 flex border-gray-800 focus:outline-none'
+                  className='bg-transparent border-2 rounded-lg p-2 sm:p-3 flex border-gray-800 focus:outline-none'
                   type='text'
                   name='phone'
                 />
               </div>
             </div>
-            <div className='grid sm:gap-4 gap-0 w-full'>
+            <div className='grid sm:gap-4 w-full'>
               <div className='flex flex-col'>
                 <div className='flex flex-col sm:py-2'>
-                  <label className='uppercase text-sm sm:py-2 text-grey-800'>
+                  <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
                     Email
                   </label>
                   <input
-                    className='bg-transparent border-2 rounded-lg p-3 flex border-gray-800 focus:outline-none'
+                    className='bg-transparent border-2 rounded-lg p-2 sm:p-3 flex border-gray-800 focus:outline-none'
                     type='email'
                     name='email'
                   />
                 </div>
                 <br></br>
                 <div className='flex flex-col'>
-                  <label className='uppercase text-sm text-grey-800'>
+                  <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
                     Subject
                   </label>
                   <input
-                    className='bg-transparent border-2 rounded-lg p-3 flex border-gray-800 focus:outline-none'
+                    className='bg-transparent border-2 rounded-lg p-2 sm:p-3 flex border-gray-800 focus:outline-none'
                     type='text'
                     name='subject'
                   />
                 </div>
                 <br></br>
                 <div className='flex flex-col'>
-                  <label className='uppercase text-sm sm:py-2 text-grey-800'>
+                  <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
                     Message
                   </label>
                   <textarea
@@ -75,14 +78,14 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                   <textarea
-                    className='bg-transparent border-2 rounded-lg p-3 border-gray-800 focus:outline-none sm:hidden block sm:invisible visible'
+                    className='bg-transparent border-2 rounded-lg p-2 sm:p-3 border-gray-800 focus:outline-none sm:hidden block sm:invisible visible'
                     rows='5'
                     name='message'
                   ></textarea>
                 </div>
                 <br></br>
                 <div className='flex flex-col'>
-                  <button className='bg-blue-700 text-gray-100 mt-4 w-full p-4 rounded-lg'>
+                  <button className='bg-blue-700 text-gray-100 text-xl hover:italic sm:mt-4 w-full p-2 sm:p-4 rounded-lg'>
                     Send Message
                   </button>
                 </div>
