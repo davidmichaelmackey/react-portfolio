@@ -20,10 +20,7 @@ const Portfolio = () => {
         alt='A colorful gradient background photo.'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
-        <div
-          id='portfolio'
-          className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'
-        >
+        <div id='portfolio' className='max-w-[800px] m-auto md:pl-20 p-4 py-16'>
           <h1 className='py-4 text-4xl sm:text-6xl mb-6 font-bold text-center text-[#001B5E]'>
             Portfolio
           </h1>

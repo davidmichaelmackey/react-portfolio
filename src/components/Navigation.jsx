@@ -60,7 +60,7 @@ const Navigation = () => {
       ) : (
         ''
       )}
-      <div className='md:block hidden fixed top-[40%] z-10'>
+      <div className='md:block hidden fixed top-[35.5%] z-10'>
         <div className='flex flex-col'>
           <Link
             to='/react-portfolio/'
