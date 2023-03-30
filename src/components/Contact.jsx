@@ -24,7 +24,7 @@ const Contact = () => {
           >
             <div className='grid md:grid-cols-2 sm:gap-4 w-full sm:py-2'>
               <div className='flex flex-col'>
-                <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
+                <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800 mt-1'>
                   Name
                 </label>
                 <input
