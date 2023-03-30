@@ -12,7 +12,7 @@ const Contact = () => {
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div
           id='contact'
-          className='max-w-[1040px] m-auto md:pl-20 sm:p-4 p-6 py-5 sm:py-10'
+          className='max-w-[1040px] m-auto md:pl-20 sm:p-4 p-6 py-4 sm:py-10'
         >
           <h1 className=' sm:mb-12 mb-6 text-2xl sm:text-6xl font-bold text-center text-gray-800'>
             Contact
@@ -34,7 +34,7 @@ const Contact = () => {
                 />
               </div>
               <div className='flex flex-col'>
-                <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
+                <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800 mt-1'>
                   Phone
                 </label>
                 <input
@@ -47,7 +47,7 @@ const Contact = () => {
             <div className='grid sm:gap-4 w-full'>
               <div className='flex flex-col'>
                 <div className='flex flex-col sm:py-2'>
-                  <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
+                  <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800 mt-1'>
                     Email
                   </label>
                   <input
@@ -56,9 +56,8 @@ const Contact = () => {
                     name='email'
                   />
                 </div>
-                <br></br>
                 <div className='flex flex-col'>
-                  <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
+                  <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800 mt-1'>
                     Subject
                   </label>
                   <input
@@ -67,9 +66,8 @@ const Contact = () => {
                     name='subject'
                   />
                 </div>
-                <br></br>
                 <div className='flex flex-col'>
-                  <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800'>
+                  <label className='text-center font-medium uppercase text-sm sm:py-2 text-grey-800 mt-1'>
                     Message
                   </label>
                   <textarea
@@ -83,9 +81,8 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <br></br>
                 <div className='flex flex-col'>
-                  <button className='bg-blue-700 text-gray-100 text-xl hover:italic sm:mt-4 w-full p-2 sm:p-4 rounded-lg'>
+                  <button className='bg-blue-700 text-gray-100 text-xl hover:italic sm:mt-4 mt-5 w-full p-2 sm:p-4 rounded-lg'>
                     Send Message
                   </button>
                 </div>

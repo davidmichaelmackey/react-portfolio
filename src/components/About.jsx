@@ -12,12 +12,12 @@ const About = () => {
         alt='A mirror photo of David Michael Mackey taken in Los Angeles, CA, back in 2019.'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
-        <div className='max-w-[1040px] m-auto md:pl-20 p-4 sm:py-10 py-5'>
+        <div className='max-w-[1040px] m-auto md:pl-20 p-4 sm:py-10 py-4'>
           <h1 className='text-2xl sm:text-6xl font-bold text-center text-gray-800'>
             About
           </h1>
           <img
-            className='object-center sm:mt-10 mt-4 rounded-md shadow-xl shadow-gray-900'
+            className='object-center mx-auto sm:max-w-3xl max-w-[300px] sm:mt-10 mt-4 rounded-md shadow-xl shadow-gray-900'
             src={hero}
             alt='A mirror photo of David Michael Mackey taken in Los Angeles, CA, back in 2019.'
           />
