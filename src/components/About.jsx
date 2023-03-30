@@ -17,13 +17,13 @@ const About = () => {
             About
           </h1>
           <img
-            className='object-center sm:mt-28 mt-4 rounded-2xl'
+            className='object-center sm:mt-6 mt-4 rounded-2xl'
             src={hero}
             alt='A mirror photo of David Michael Mackey taken in Los Angeles, CA, back in 2019.'
           />
 
           <div className='flex flex-row justify-center items-center'>
-            <p className='font-medium text-center sm:text-2xl text-lg max-w-5xl sm:mt-12 mt-6 text-gray-800'>
+            <p className='font-medium text-center sm:text-2xl text-lg max-w-5xl sm:mt-6 mt-6 text-gray-800'>
               As a web developer, who specializes in front-end & back-end, I
               believe in designing a cleaner, more accessible world, where
               user-interfaces are mediums between human & machine that foster

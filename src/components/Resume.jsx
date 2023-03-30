@@ -12,7 +12,7 @@ const Resume = () => {
         >
           Download My <span className='text-[#001B5E]'>Resume</span>
           <FaFileDownload
-            size={20}
+            size={26}
             className='float-right ml-2 fill-[#001B5E]'
           />
         </a>
