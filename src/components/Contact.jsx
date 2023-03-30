@@ -11,7 +11,7 @@ const Contact = () => {
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-          <h1 className=' sm:mb-48 py-4 text-4xl sm:text-6xl font-bold text-center text-[#001B5E]'>
+          <h1 className=' sm:mb-12 text-4xl sm:text-6xl font-bold text-center text-[#001B5E]'>
             Contact
           </h1>
           <form
@@ -20,7 +20,7 @@ const Contact = () => {
             encType='multipart/form-data'
           >
             <div className='grid md:grid-cols-2 sm:gap-4 gap-0 w-full py-2'>
-              <div className='flex flex-col py-2'>
+              <div className='flex flex-col'>
                 <label className='uppercase text-sm sm:py-2 text-grey-800'>
                   Name
                 </label>
@@ -30,7 +30,7 @@ const Contact = () => {
                   name='name'
                 />
               </div>
-              <div className='flex flex-col py-2'>
+              <div className='flex flex-col'>
                 <label className='uppercase text-sm sm:py-2 text-grey-800'>
                   Phone
                 </label>
@@ -41,7 +41,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className='grid sm:gap-4 gap-0 w-full sm:py-2'>
+            <div className='grid sm:gap-4 gap-0 w-full'>
               <div className='flex flex-col'>
                 <div className='flex flex-col sm:py-2'>
                   <label className='uppercase text-sm sm:py-2 text-grey-800'>
@@ -54,8 +54,8 @@ const Contact = () => {
                   />
                 </div>
                 <br></br>
-                <div className='flex flex-col sm:py-2'>
-                  <label className='uppercase text-sm sm:py-2 text-grey-800'>
+                <div className='flex flex-col'>
+                  <label className='uppercase text-sm text-grey-800'>
                     Subject
                   </label>
                   <input
@@ -65,7 +65,7 @@ const Contact = () => {
                   />
                 </div>
                 <br></br>
-                <div className='flex flex-col sm:py-2'>
+                <div className='flex flex-col'>
                   <label className='uppercase text-sm sm:py-2 text-grey-800'>
                     Message
                   </label>
@@ -81,7 +81,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <br></br>
-                <div className='flex flex-col py-2'>
+                <div className='flex flex-col'>
                   <button className='bg-[#001B5E] text-gray-100 mt-4 w-full p-4 rounded-lg'>
                     Send Message
                   </button>
