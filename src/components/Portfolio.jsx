@@ -22,7 +22,7 @@ const Portfolio = () => {
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div
           id='portfolio'
-          className='max-w-[1040px] m-auto md:pl-20 sm:p-4 p-14 sm:py-10 py-4'
+          className='max-w-[800px] m-auto md:pl-20 sm:p-4 p-14 sm:py-10 py-4'
         >
           <h1 className='text-2xl sm:text-6xl mb-20 font-bold text-center text-gray-800'>
             Portfolio
