@@ -12,7 +12,7 @@ const Contact = () => {
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div
           id='contact'
-          className='max-w-[1040px] m-auto md:pl-20 sm:p-4 p-6 py-5 sm:py-16'
+          className='max-w-[1040px] m-auto md:pl-20 sm:p-4 p-6 py-5 sm:py-10'
         >
           <h1 className=' sm:mb-12 mb-6 text-2xl sm:text-6xl font-bold text-center text-gray-800'>
             Contact
