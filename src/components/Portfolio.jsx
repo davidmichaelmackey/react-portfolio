@@ -21,7 +21,7 @@ const Portfolio = () => {
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div id='portfolio' className='max-w-[800px] m-auto md:pl-20 p-4 py-16'>
-          <h1 className='py-4 text-4xl sm:text-6xl mb-6 font-bold text-center text-[#001B5E]'>
+          <h1 className='text-4xl sm:text-6xl mb-20 font-bold text-center text-gray-800'>
             Portfolio
           </h1>
           <div className='grid sm:grid-cols-3 gap-12'>

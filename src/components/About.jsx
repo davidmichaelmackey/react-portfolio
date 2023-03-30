@@ -13,7 +13,7 @@ const About = () => {
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-          <h1 className='text-4xl sm:text-6xl font-bold text-center text-[#001B5E]'>
+          <h1 className='text-4xl sm:text-6xl font-bold text-center text-gray-800'>
             About
           </h1>
           <img
